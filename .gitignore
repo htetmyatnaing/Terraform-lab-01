@@ -1,0 +1,40 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files
+# Comment if you have specific variable files you want to include
+# *.tfvars
+
+# .tfvars.json files, which can contain sensitive data
+# *.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include .terraformrc and terraform.rc if you are using them for local config only
+terraform.rc
+.terraformrc
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore CLI configuration files
+.terraform.d/
+
+# Ignore sensitive files containing credentials
+credentials/
+
+# Ignore backup files
+*.bak
+*.swp
+*.backup
